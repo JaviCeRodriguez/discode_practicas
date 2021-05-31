@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(22, 21, 21);
+    font-family: Roboto, Arial, sans-serif;
+}
+
+.container{
+    display: flex;
+    padding: 1rem;
+}
+
+.video {
+    width: 15rem;
+    margin: 0 0.5rem;
+}
+
+.miniature{
+    position: relative;
+    width: 15rem;
+    height: 9rem;
+    border-bottom: 0.2rem solid red;
+    margin-bottom: 0.8rem;
+    background-image: url('https://cdn2.mediotiempo.com/uploads/media/2019/06/22/mano-dios-gol-maradona-inglaterra.jpg');
+    background-size: cover;
+}
+
+.miniature span{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.815);
+    font-weight: 600;
+    font-size: 0.65rem;
+    color: white;
+    padding: 0.2rem 0.3rem;
+    border-radius: 0.1rem;
+    bottom: 0;
+    right: 0.25rem;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.wrapper img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+}
+
+.text{
+    padding: 0 0.5rem;
+}
+
+.wrapper .text h3{
+    color: rgb(228, 228, 228);
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.wrapper .text h4,
+.wrapper .text p{
+    color: rgb(151, 151, 151);
+    font-size: 0.8rem;
+}
