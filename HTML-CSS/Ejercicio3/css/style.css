@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+body{
+    background-color: #15202b;
+}
+
+.navbar {
+    margin-top: 0.5rem;
+    width: 100%;
+    max-width: 15rem;
+    padding: 0.5rem 0 0.5rem 2rem;
+}
+
+.logo{
+    font-size: 1.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.logo:hover{
+    background-color: rgba(255, 255, 255, 0.116);
+}
+
+ul{
+    margin-bottom: 1rem;
+}
+
+.item{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    width: 100%;
+}
+
+.item li{
+    width: min-content;
+    min-width: fit-content;
+    padding: 0.7rem;
+    margin: 0.3rem 0;
+    border-radius: 1.5rem;
+}
+
+.item:hover{
+    color: #794bc4;
+}
+
+.item:hover li{
+    background-color: #9d93ad1c;
+}
+
+.item li span{
+    padding-right: 0.8rem;
+}
+
+button{
+    background-color: #794bc4;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 0.8rem 4.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+button:hover{
+    background-color: #8459c9;
+    cursor: pointer;
+}
